@@ -32,3 +32,12 @@ body{
     .heading{
       font-size: 5vw;
     }
+    @media screen and (max-width:576px) {
+      .text-responsive{
+        font-size: 20px;
+      }
+      .responsive-paragraph{
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
