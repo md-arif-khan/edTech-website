@@ -35,16 +35,21 @@ body{
     @media screen and (max-width:576px) {
       .text-responsive{
         font-size: 18px;
-        line-height: 17px;
+        line-height: 20px;
         padding-bottom: 0;
         margin-bottom: 2;
+        font-weight:normal;
       }
       .responsive-paragraph{
         font-size: 13px;
         line-height: 16px;
+        margin-bottom: 6px;
       }
     }
    
     .text-justify-style{
       text-align: justify;
+    }
+    .bg-style-custom{
+      background-color: #F4FAFD;
     }
